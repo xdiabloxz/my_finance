@@ -51,7 +51,7 @@ Para nunca perder seus dados:
 
 ## 🛡️ Segurança e Transparência
 
-Este software é distribuído como um executável ofuscado via **PyArmor** para proteção da propriedade intelectual e lógica do sistema.
+Este software é distribuído como um executável.
 
 - **Dados Locais:** Nenhuma informação financeira é enviada para servidores da MyFinance.
 - **BYOK (Bring Your Own Key):** Você usa suas próprias chaves do Google (IA e Drive), garantindo que só você tenha acesso aos seus dados na nuvem.
