@@ -1,2 +1,51 @@
-   <h2 class="text-2xl text-purple-600 font-bold mb-2">🎉 Novidade!</h2>
-   <p class="text-gray-700">Bem-vindo à nova versão do MyFinance. Agora temos integração total com o Google Drive!</p>
+<div id="welcome-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 transform transition-all border-t-8 border-purple-600">
+        
+        <div class="text-center mb-6">
+            <h2 class="text-3xl text-purple-600 font-extrabold mb-2">🎉 Novidade!</h2>
+            <p class="text-gray-600 text-lg">
+                Bem-vindo à nova versão do <strong>MyFinance</strong>. 
+                Agora temos integração total com o <strong>Google Drive</strong>!
+            </p>
+        </div>
+
+        <div class="space-y-4 mb-8">
+            <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">O que há de novo:</h3>
+            
+            <div class="flex items-start space-x-3">
+                <div class="bg-purple-100 p-2 rounded-lg text-purple-600">📊</div>
+                <div>
+                    <p class="font-bold text-gray-800">Dashboard Inteligente</p>
+                    <p class="text-sm text-gray-500">Gráficos dinâmicos para controle total de receitas e despesas.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+                <div class="bg-blue-100 p-2 rounded-lg text-blue-600">☁️</div>
+                <div>
+                    <p class="font-bold text-gray-800">Backup em Nuvem</p>
+                    <p class="text-sm text-gray-500">Sincronização automática do banco de dados e faturas no seu Drive.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+                <div class="bg-green-100 p-2 rounded-lg text-green-600">🧠</div>
+                <div>
+                    <p class="font-bold text-gray-800">Análise com IA</p>
+                    <p class="text-sm text-gray-500">Insights gerados pelo Google Gemini para ajudar na sua economia.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center space-y-4">
+            <p class="text-sm text-gray-600">
+                Sua opinião é valiosa! Visite a página <strong>"Sobre"</strong> para nos enviar dicas de melhorias via e-mail.
+            </p>
+            
+            <button onclick="document.getElementById('welcome-modal').classList.add('hidden')" 
+                    class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-xl shadow-lg transition duration-300">
+                Vamos Começar!
+            </button>
+        </div>
+    </div>
+</div>
